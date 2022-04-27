@@ -7,7 +7,7 @@ import pandas as pd
 
 '''
 # metabase credentials to access the dbs
-cli = Client(username="jawakar@raaho.in", password="92LjKfzOt1Xvqm", base_url="http://3.6.54.230:3000/metabase/")
+cli = Client(username="jawakar@raaho.in", password="*********", base_url="http://3.6.54.230:3000/metabase/")
 cli.authenticate()
 
 def get_dbs():
